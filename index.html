@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Share-button-project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="hero-image">
+        <img src="./images/drawers.jpg" alt="Green dresser with decorative items" />
+      </header>
+  
+      <main class="content-section">
+        <section class="main-content">
+          <h1>
+            Shift the overall look and feel by adding these wonderful touches to furniture in your home
+          </h1>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </section>
+  
+        <section class="author-section">
+          <div class="author-info">
+            <img src="./images/michelle.jpg" alt="Michelle Appleton" class="author-img" />
+            <div>
+              <p class="author-name"><strong>Michelle Appleton</strong></p>
+              <p class="post-date">28 Jun 2020</p>
+            </div>
+          </div>
+          <button class="share-btn" id="shareButton">
+            <img src="./images/share.png" alt="Share" />
+          </button>
+        </section>
+        <div class="share-menu" id="shareMenu">
+          <a href="#" onclick="shareTo('snapchat')">
+            <img src="./images/snapchat.png" alt="Snapchat" class="share-icon">
+          </a>
+          <a href="#" onclick="shareTo('pinterest')">
+            <img src="./images/pinterest.png" alt="Pinterest" class="share-icon">
+          </a>
+          <a href="#" onclick="shareTo('twitter')">
+            <img src="./images/twitter.png" alt="Twitter" class="share-icon">
+          </a>
+          <a href="#" onclick="shareTo('instagram')">
+            <img src="./images/instagram.png" alt="Instagram" class="share-icon"> 
+          </a>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
