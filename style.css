@@ -61,15 +61,21 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     padding: 12px 20px;
     border-radius: 10px;
-    bottom: 100; /* Position above the button */
-    right: 0;
+    bottom: 90px; /* Position above the button */
+    right: 10px;
     z-index: 100;
     flex-direction: row; /* Horizontal layout */
     gap: 16px;
     align-items: center;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(10px);
   }
   .share-menu.active {
     display: flex;
+    background: hsl(214, 17%, 51%);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .share-menu::after {
@@ -108,10 +114,9 @@
       gap: 50px;
       align-items: center;
     }
-    .share-menu {
-      bottom: calc(100% + 15px);
-      right: 0;
-  }
+
+     
+   
 
   
     .hero-image {
