@@ -61,8 +61,8 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     padding: 12px 20px;
     border-radius: 10px;
-    bottom: 90px; /* Position above the button */
-    right: 10px;
+    bottom: 120px; /* Position above the button */
+    right: 20px;
     z-index: 100;
     flex-direction: row; /* Horizontal layout */
     gap: 16px;
